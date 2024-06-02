@@ -1,65 +1,48 @@
-jMonkeyEngine
-=============
-
-[![Build Status](https://github.com/jMonkeyEngine/jmonkeyengine/workflows/Build%20jMonkeyEngine/badge.svg)](https://github.com/jMonkeyEngine/jmonkeyengine/actions)
-
-jMonkeyEngine is a 3-D game engine for adventurous Java developers. It’s open-source, cross-platform, and cutting-edge.
-v3.6.1 is the latest stable version of the engine.
-
-The engine is used by several commercial game studios and computer-science courses. Here's a taste:
-
-![jME3 Games Mashup](https://i.imgur.com/nF8WOW6.jpg)
-
- - [jME powered games on IndieDB](http://www.indiedb.com/engines/jmonkeyengine/games)
- - [Boardtastic 2](https://boardtastic-2.fileplanet.com/apk)
- - [Attack of the Gelatinous Blob](https://attack-gelatinous-blob.softwareandgames.com/)
- - [Mythruna](http://mythruna.com/)
- - [PirateHell (on Steam)](https://store.steampowered.com/app/321080/Pirate_Hell/)
- - [3089 (on Steam)](http://store.steampowered.com/app/263360/)
- - [3079 (on Steam)](http://store.steampowered.com/app/259620/)
- - [Lightspeed Frontier (on Steam)](https://store.steampowered.com/app/548650/Lightspeed_Frontier/)
- - [Skullstone](http://www.skullstonegame.com/)
- - [Spoxel (on Steam)](https://store.steampowered.com/app/746880/Spoxel/)
- - [Nine Circles of Hell (on Steam)](https://store.steampowered.com/app/1200600/Nine_Circles_of_Hell/)
- - [Leap](https://gamejolt.com/games/leap/313308)
- - [Jumping Jack Flag](http://timealias.bplaced.net/jack/)
- - [PapaSpace Flight Simulation](https://www.papaspace.at/)
- - [Cubic Nightmare (on Itch)](https://jaredbgreat.itch.io/cubic-nightmare)
- - [Chatter Games](https://chatter-games.com)
- - [Exotic Matter](https://exoticmatter.io)
- - [Demon Lord (on Google Play)](https://play.google.com/store/apps/details?id=com.dreiInitiative.demonLord&pli=1)
- - [Marvelous Marbles (on Steam)](https://store.steampowered.com/app/2244540/Marvelous_Marbles/)
- - [Boxer (on Google Play)](https://play.google.com/store/apps/details?id=com.tharg.boxer)
- - [Depthris (on Itch)](https://codewalker.itch.io/depthris)
- - [Stranded (on Itch)](https://tgiant.itch.io/stranded)
- - [The Afflicted Forests (Coming Soon to Steam)](https://www.indiedb.com/games/the-afflicted-forests)
-
-## Getting Started
-
-Go to https://github.com/jMonkeyEngine/sdk/releases to download the jMonkeyEngine SDK.
-Read [the wiki](https://jmonkeyengine.github.io/wiki) for the installation guide and tutorials.
-Join [the discussion forum](http://hub.jmonkeyengine.org/) to participate in our community,
-get your questions answered, and share your projects.
-
-Note: The master branch on GitHub is a development version of the engine and is NOT MEANT TO BE USED IN PRODUCTION.
-
-### Technology Stack
-
- - windowed, multi-platform IDE derived from NetBeans
- - libraries for GUI, networking, physics, SFX, terrain, importing assets, etc.
- - platform-neutral core library for scene graph, animation, rendering, math, etc.
- - LWJGL v2/v3 (to access GLFW, OpenAL, OpenGL, and OpenVR) or Android or iOS
- - Java Virtual Machine (v8 or higher)
-
-### Documentation
-
-Did you miss it? Don't sweat it, [here it is again](https://jmonkeyengine.github.io/wiki).
-
-### Contributing
-
-Read our [contribution guide](https://github.com/jMonkeyEngine/jmonkeyengine/blob/master/CONTRIBUTING.md).
-
-### License
-
-[New BSD (3-clause) License](https://github.com/jMonkeyEngine/jmonkeyengine/blob/master/LICENSE.md)
-
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引擎</font></font></h1><a id="user-content-jmonkeyengine" class="anchor" aria-label="永久链接：jMonkeyEngine" href="#jmonkeyengine"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com/jMonkeyEngine/jmonkeyengine/actions"><img src="https://github.com/jMonkeyEngine/jmonkeyengine/workflows/Build%20jMonkeyEngine/badge.svg" alt="构建状态" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jMonkeyEngine 是一款面向具有冒险精神的 Java 开发人员的 3D 游戏引擎。它开源、跨平台且先进。v3.6.1 是该引擎的最新稳定版本。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该引擎被多家商业游戏工作室和计算机科学课程采用。以下是部分示例：</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/fc176a664fc9487f5963dd63de5770a8e5b7df973f564b8d67a25b6c6e0df247/68747470733a2f2f692e696d6775722e636f6d2f6e4638574f57362e6a7067"><img src="https://camo.githubusercontent.com/fc176a664fc9487f5963dd63de5770a8e5b7df973f564b8d67a25b6c6e0df247/68747470733a2f2f692e696d6775722e636f6d2f6e4638574f57362e6a7067" alt="jME3 游戏混搭" data-canonical-src="https://i.imgur.com/nF8WOW6.jpg" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li><a href="http://www.indiedb.com/engines/jmonkeyengine/games" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IndieDB 上由 jME 提供支持的游戏</font></font></a></li>
+<li><a href="https://boardtastic-2.fileplanet.com/apk" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">棋盘游戏 2</font></font></a></li>
+<li><a href="https://attack-gelatinous-blob.softwareandgames.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凝胶状斑点的攻击</font></font></a></li>
+<li><a href="http://mythruna.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">神秘女巫</font></font></a></li>
+<li><a href="https://store.steampowered.com/app/321080/Pirate_Hell/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PirateHell（在 Steam 上）</font></font></a></li>
+<li><a href="http://store.steampowered.com/app/263360/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3089（Steam 上）</font></font></a></li>
+<li><a href="http://store.steampowered.com/app/259620/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3079（Steam 上）</font></font></a></li>
+<li><a href="https://store.steampowered.com/app/548650/Lightspeed_Frontier/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">《光速前线》（Steam 版本）</font></font></a></li>
+<li><a href="http://www.skullstonegame.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">骷髅石</font></font></a></li>
+<li><a href="https://store.steampowered.com/app/746880/Spoxel/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Spoxel（在 Steam 上）</font></font></a></li>
+<li><a href="https://store.steampowered.com/app/1200600/Nine_Circles_of_Hell/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">九层地狱（Steam 版本）</font></font></a></li>
+<li><a href="https://gamejolt.com/games/leap/313308" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">飞跃</font></font></a></li>
+<li><a href="http://timealias.bplaced.net/jack/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跳杰克旗</font></font></a></li>
+<li><a href="https://www.papaspace.at/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PapaSpace飞行模拟</font></font></a></li>
+<li><a href="https://jaredbgreat.itch.io/cubic-nightmare" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">立方体噩梦（痒痒）</font></font></a></li>
+<li><a href="https://chatter-games.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聊天游戏</font></font></a></li>
+<li><a href="https://exoticmatter.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">奇异物质</font></font></a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.dreiInitiative.demonLord&amp;pli=1" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">魔王 (Google Play 上)</font></font></a></li>
+<li><a href="https://store.steampowered.com/app/2244540/Marvelous_Marbles/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">《Marvelous Marbles》（Steam 版本）</font></font></a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.tharg.boxer" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拳击手 (Google Play 上)</font></font></a></li>
+<li><a href="https://codewalker.itch.io/depthris" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Depthris（关于 Itch）</font></font></a></li>
+<li><a href="https://tgiant.itch.io/stranded" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">搁浅（瘙痒）</font></font></a></li>
+<li><a href="https://www.indiedb.com/games/the-afflicted-forests" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">受灾森林 (即将登陆 Steam 平台)</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor" aria-label="永久链接：入门" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前往</font></font><a href="https://github.com/jMonkeyEngine/sdk/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/jMonkeyEngine/sdk/releases</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载 jMonkeyEngine SDK。阅读</font></font><a href="https://jmonkeyengine.github.io/wiki" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取安装指南和教程。加入</font></font><a href="http://hub.jmonkeyengine.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讨论论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以参与我们的社区、获取问题的答案并分享您的项目。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：GitHub 上的主分支是引擎的开发版本，不适用于生产。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术堆栈</font></font></h3><a id="user-content-technology-stack" class="anchor" aria-label="固定链接：技术堆栈" href="#technology-stack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">源自 NetBeans 的窗口化、多平台 IDE</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于 GUI、网络、物理、SFX、地形、导入资产等的库。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于场景图、动画、渲染、数学等的平台中立核心库。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LWJGL v2/v3（用于访问 GLFW、OpenAL、OpenGL 和 OpenVR）或 Android 或 iOS</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java 虚拟机（v8 或更高版本）</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h3><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你错过了吗？别担心，</font></font><a href="https://jmonkeyengine.github.io/wiki" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它又来了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h3><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读我们的</font></font><a href="https://github.com/jMonkeyEngine/jmonkeyengine/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h3><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com/jMonkeyEngine/jmonkeyengine/blob/master/LICENSE.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新 BSD（3 条款）许可证</font></font></a></p>
+</article></div>
